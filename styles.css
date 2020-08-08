@@ -1,0 +1,416 @@
+/*---------------General-----------------*/
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+h6 {
+    font-size: 0.5rem;
+}
+
+.larg-screen, .s-425, .xl-screen, .md-screen , .l-screen{
+    display: none;
+}
+
+
+/*----------------navbar----------------*/
+
+.navbar1 a {
+    color: #888888;
+}
+
+.navbar1 a:focus {
+    color: #d35266;
+}
+
+
+.navbar1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #383838;
+
+}
+
+.logo {
+    height: 3rem;
+}
+.links {
+    align-items: center;
+    justify-content: center;
+    
+}
+.links a {
+    flex-wrap: nowrap;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+
+.links a:hover {
+    color: #d35266;
+}
+
+.l-screen {
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn button {
+    margin: 1rem;
+    height: 2rem;
+    color: #ffffff;
+    background-color: #d35266;
+    border: none;
+}
+
+.links button {
+    align-items: center;
+    height: 2rem;
+    color: #ffffff;
+    background-color: #d35266;
+    border: none;
+}
+
+
+
+/*---------------header-----------------*/
+
+.header1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./graphics/background.png);
+    background-size: cover;
+    height: auto;
+    
+}
+
+.header-logo img {
+    height: 7rem;
+}    
+    
+    
+
+
+
+
+.header-forms {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.dep, .item, .city {
+    margin: .5rem   ;
+    padding: .5rem;
+    height: 2rem;
+}
+
+.select {
+    padding: .5rem;
+    margin: 0.5;
+    height: 2rem;
+    width: 12.5rem;
+}
+
+
+.search button {
+    height: 2rem;
+    width: 5rem;
+    background-color: #383838;
+    color: #888888;
+    border: none;
+}
+
+/*---------------first-ad-----------------*/
+.first-section {
+    flex-direction: row;
+    height: 12rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+    
+}
+.f-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem;
+    
+}
+
+.arr {
+    border: 1px solid #dbdbdb;
+    border-radius: 100%;
+    color: #d35266;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img img {
+    width: 10rem;
+    
+    
+}
+
+.text {
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text button {
+    background-color: #d35266;
+    color: #ffffff;
+    border: none;
+    margin: .2rem;
+    height: 2rem;
+    
+    
+}
+
+/*--------------cars----------------------*/
+.arrs {
+    width: 1rem;
+    padding: .7rem;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0) );
+}
+
+.arrs2 {
+    width: 1rem;
+    padding: .7rem;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) );
+
+}
+
+.collection {
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(233, 233, 233);
+}
+.cars {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.float h4 {
+    font-size: .8rem;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.car1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 .2rem;
+    background-color: #ffffff;
+    height: 20rem;
+    
+
+}
+
+.car-img {
+    flex-direction: column;
+    
+}
+
+.car-img img {
+    height: 7rem;
+}
+
+.car-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    
+}
+
+.car-text h4 {
+    font-size: .8rem;
+}
+
+.car-text h6 {
+    font-size: .7rem;
+    margin: .3rem;
+}
+
+.used {
+    line-height: .5rem;
+    width: 10rem;
+    padding: .05rem;
+    justify-self: start;
+
+}
+
+.used h6 {
+    color: #d35266;
+    line-height: .05rem;
+    margin: .5rem;
+}
+
+.car-btn {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    
+}
+.car-btn a {
+    color: #888888;
+}
+
+.car-btn button {
+    width: 1rem;
+    height: 1rem;
+}
+
+.red h5 {
+    color: #d35266;
+}
+
+@media (min-width: 424px) {
+    .s-425 {
+        display: flex;
+    }
+}
+
+@media (min-width: 525px) {
+    .xs-screen {
+        display: none;
+    }
+}
+
+@media (min-width: 624px) {
+    .md-screen {
+        display: flex;
+    }
+    .xs-screen {
+        display: none;
+    }
+
+    .header-forms {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+    }
+    
+    .dep, .item, .city {
+        margin: .05rem   ;
+        padding: .5rem;
+        height: 2rem;
+    }
+    
+    .select {
+        padding: .5rem;
+        margin: -.5rem;
+        height: 2rem;
+        width: 10rem;
+    }
+    
+    
+    .search button {
+        height: 2rem;
+        width: 5rem;
+        margin: .5rem;
+        background-color: #383838;
+        color: #888888;
+        border: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .larg-screen {
+        display: flex;
+        
+    }
+
+    .header-forms {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+    }
+    
+    .dep, .item, .city {
+        margin: .05rem   ;
+        padding: .5rem;
+        height: 2rem;
+    }
+    
+    .select {
+        padding: .5rem;
+        margin: -.5rem;
+        height: 2rem;
+        width: 10rem;
+    }
+    
+    
+    .search button {
+        height: 2rem;
+        width: 5rem;
+        margin: .5rem;
+        background-color: #383838;
+        color: #888888;
+        border: none;
+    }
+}
+
+@media (min-width: 1023px) {
+    .l-screen {
+        display: flex;
+        
+    }
+
+    .navbar1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #383838;
+    }
+
+}
+@media (min-width: 1399px) {
+    .xl-screen {
+        display: flex;
+    }
+}
