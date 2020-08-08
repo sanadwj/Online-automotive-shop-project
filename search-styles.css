@@ -1,0 +1,43 @@
+/*---------------General-----------------*/
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+h6 {
+    font-size: 0.5rem;
+}
+
+.larg-screen, .s-425, .xl-screen, .md-screen , .l-screen{
+    display: none;
+}
+
+/*-------------header------------*/ 
+
+.search-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./graphics/background.png);
+    background-size: cover;
+    height: auto;
+    
+}
+
+.search-header-forms {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}

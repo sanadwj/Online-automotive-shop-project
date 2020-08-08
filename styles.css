@@ -39,6 +39,7 @@ h6 {
     align-items: center;
     justify-content: center;
     background-color: #383838;
+    height: 3rem;
 
 }
 
@@ -307,6 +308,103 @@ h6 {
     color: #d35266;
 }
 
+/*------------------footer---------------*/
+
+.footer {
+    flex-direction: column;
+}
+
+.sec {
+    flex-direction: column;
+}
+
+.cat-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.footer-logo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 5rem;
+}
+
+.footer-logo p {
+    width: 50%;
+}
+
+.lists {
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: .7rem;
+    color: #888888;
+    line-height: 0.3rem;
+}
+
+.title {
+    color: #d35266;
+    border-bottom: solid .5px;
+    height: 1.6rem;
+
+}
+
+
+
+.options  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end ;
+}
+
+.option {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.option h4 {
+    margin: 1rem;
+    color: #d35266;
+
+}
+
+.option input {
+    width: 7rem;
+    margin: 0 1rem;
+}
+
+.rights {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #88888841;
+    
+}
+
+.right {
+    color: #888888;
+}
+
+.icons {
+    margin: 0 1rem;
+}
+
+.icons a {
+    color: #888888;
+    margin: 0.1rem;
+}
+
 @media (min-width: 424px) {
     .s-425 {
         display: flex;
@@ -323,7 +421,7 @@ h6 {
     .md-screen {
         display: flex;
     }
-    .xs-screen {
+    .xs-screen, .l-screen {
         display: none;
     }
 
@@ -364,6 +462,10 @@ h6 {
         
     }
 
+    .l-screen {
+        display: none;
+    }
+
     .header-forms {
         flex-direction: row;
         align-items: center;
@@ -392,6 +494,10 @@ h6 {
         background-color: #383838;
         color: #888888;
         border: none;
+    }
+
+    .sec {
+        flex-direction: row;
     }
 }
 
