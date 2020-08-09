@@ -5,10 +5,25 @@
     
 }
 
+@font-face {
+    font-family: Gotham;
+    src: url(./fonts/BOLD/HomepageBaukasten-Bold.ttf);
+}
+
+@font-face {
+    font-family: Helveticaneue ;
+    src: url(./fonts/Helvetica\ Neue\ LT\ Com\ 57\ Condensed.ttf);
+}
+
+
 body {
     font-size: 62.5%;
     margin: 0 auto;
-}
+    font-family: 'Gotham', 'Helveticaneue';
+    
+    
+    
+} 
 
 .flex {
     display: flex;
@@ -62,6 +77,12 @@ s-header-logo {
     margin: 1rem;
 }
 
+.s-header-text h7 {
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
 .s-dep, .s-item, .s-city {
     margin: .5rem   ;
     padding: .5rem;
@@ -81,7 +102,7 @@ s-header-logo {
 
 .search-container {
     display: grid;
-    grid-template: 2fr / 1fr 3fr; 
+    grid-template: 1fr / 1fr 3fr; 
     width: auto;
     height: auto;
     border-bottom: solid 1px #888888;
@@ -102,10 +123,24 @@ s-header-logo {
 .buy-sell {
     margin: 1rem;
 }
+
+.buy-sell, .make, .type {
+    color: #888888;
+}
+
+.make h4, .type h4 {
+    color: #383838;
+}
+
 .make {
      margin: 1rem;
      grid-template-rows: 1fr 4fr;
      
+}
+
+.make a {
+    text-decoration: none;
+    color: #888888;
 }
 .make h4 {
      border-bottom: 1px solid #88888841;
@@ -165,11 +200,11 @@ s-header-logo {
 
 .s-img img {
     margin: .5rem;
-    width: 12rem;
+    width: 10rem;
 }
 
 .search-f-section {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
     align-items: flex-start;
 }
@@ -177,6 +212,11 @@ s-header-logo {
 .search-text {
     flex-direction: column;
 
+}
+
+.search-text p {
+    font-size: 0.6rem;
+    color: #888888;
 }
 
 .s-used {
@@ -199,11 +239,13 @@ s-header-logo {
     align-items: flex-start;
 }
 
-.s-text h6 {
+.s-text  {
     color: #d35266;
     margin: .5rem;
     
 }
+
+
 
 /*-------------navi-----------------*/
 
@@ -231,6 +273,34 @@ s-header-logo {
 
 .navi a:focus {
     background-color: #d35266;
+}
+
+.cat-nav {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 424px) {
+    .search-container {
+        display: grid;
+        grid-template: 2fr / 1fr 3fr; 
+    }
+    
+    .s-img img {
+        margin: .5rem;
+        width: 12rem;
+    }
+}
+
+@media (min-width: 524px) {
+    .search-f-section {
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .cat-nav {
+        flex-wrap: wrap;
+    }   
 }
 
 @media (min-width: 624px) {
@@ -281,6 +351,8 @@ s-header-logo {
         border: none;
     }
 }
+
+
 
 @media (min-width: 767px) {
     .larg-screen {

@@ -33,21 +33,18 @@ h6 {
     font-size: 0.5rem;
 }
 
-.larg-screen, .s-425, .xl-screen, .md-screen , .l-screen{
+.larg-screen, .s-425, .xs-screen, .xl-screen, .md-screen , .l-screen{
     display: none;
 }
 
-
+.red {
+    color: #d35266;
+}
 /*----------------navbar----------------*/
 
 .navbar1 a {
     color: #888888;
 }
-
-.navbar1 a:focus {
-    color: #d35266;
-}
-
 
 .navbar1 {
     flex-direction: row;
@@ -70,10 +67,19 @@ h6 {
     flex-wrap: nowrap;
     margin: 1rem;
     text-decoration: none;
-    
+    font-size: 1rem; 
 }
 
-.links a:hover {
+.links h6 {
+    font-size: 0.6rem;
+    font-weight: lighter;
+}
+
+.links h6:hover {
+    color: #d35266;
+}
+
+.links h6:focus {
     color: #d35266;
 }
 
@@ -129,13 +135,23 @@ h6 {
     margin: .5rem   ;
     padding: .5rem;
     height: 2rem;
+    font-size: .9rem;
+    color: #888888;
 }
+
+
 
 .select {
     padding: .5rem;
     margin: 0.5;
     height: 2rem;
     width: 12.5rem;
+}
+
+.header-text h7 {
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: lighter;
 }
 
 
@@ -161,7 +177,7 @@ h6 {
 .f-section {
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 1rem;
     
 }
@@ -176,6 +192,11 @@ h6 {
     align-items: center;
 }
 
+.img h4 {
+    color: #888888;
+    margin: .5rem;
+}
+
 
 .img img {
     width: 10rem;
@@ -184,10 +205,16 @@ h6 {
 }
 
 .text {
+    flex-direction: column;
     padding: 0.7rem;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: start;
     
+}
+
+.text p {
+    font-size: .6rem;
+    color: #888888;
 }
 
 .text button {
@@ -204,7 +231,7 @@ h6 {
 .arrs {
     width: 1rem;
     padding: .7rem;
-    height: 20rem;
+    height: 21rem;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0) );
@@ -213,7 +240,7 @@ h6 {
 .arrs2 {
     width: 1rem;
     padding: .7rem;
-    height: 20rem;
+    height: 21rem;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) );
@@ -224,7 +251,7 @@ h6 {
     flex-direction: column;
     width: 100%;
     padding: 0.5rem;
-    background-color: rgb(233, 233, 233);
+    background-color:#8888881c;
 }
 .cars {
     flex-direction: column;
@@ -235,6 +262,11 @@ h6 {
 
 .float h4 {
     font-size: .8rem;
+    color: #888888;
+}
+
+.float span {
+    font-size: 0.6rem;
 }
 
 .row {
@@ -249,9 +281,9 @@ h6 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: 0 .2rem;
+    margin: 0 .4rem;
     background-color: #ffffff;
-    height: 20rem;
+    height: 21rem;
     
 
 }
@@ -278,8 +310,10 @@ h6 {
 }
 
 .car-text h6 {
-    font-size: .7rem;
+    font-size: .6rem;
     margin: .3rem;
+    font-weight: lighter;
+    color: #888888;
 }
 
 .used {
@@ -290,10 +324,8 @@ h6 {
 
 }
 
-.used h6 {
-    color: #d35266;
-    line-height: .05rem;
-    margin: .5rem;
+.used p {
+    padding:0 0.5rem;
 }
 
 .car-btn {
@@ -351,7 +383,8 @@ h6 {
 
 .lists {
     flex-direction: column;
-    margin: 0 1rem;
+    margin: 1rem;
+    width: 6rem;
 }
 
 .list a {
@@ -374,6 +407,7 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end ;
+    margin: 1rem;
 }
 
 .option {
@@ -517,6 +551,10 @@ h6 {
         
     }
 
+    .xs-screen {
+        display: flex;
+    }
+
     .navbar1 {
         flex-direction: row;
         align-items: center;
@@ -525,8 +563,11 @@ h6 {
     }
 
 }
-@media (min-width: 1399px) {
+@media (min-width: 1439px) {
     .xl-screen {
         display: flex;
     }
+
+    
 }
+
