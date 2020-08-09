@@ -3,11 +3,26 @@
 * {
     box-sizing: border-box;
     
+} 
+
+@font-face {
+    font-family: Gotham;
+    src: url(./fonts/BOLD/HomepageBaukasten-Bold.ttf);
 }
+
+@font-face {
+    font-family: Helveticaneue ;
+    src: url(./fonts/Helvetica\ Neue\ LT\ Com\ 57\ Condensed.ttf);
+}
+
 
 body {
     font-size: 62.5%;
     margin: 0 auto;
+    font-family: 'Gotham', 'Helveticaneue';
+    
+    
+    
 }
 
 .flex {
@@ -100,12 +115,7 @@ h6 {
 
 .header-logo img {
     height: 7rem;
-}    
-    
-    
-
-
-
+}      
 
 .header-forms {
     flex-direction: column;

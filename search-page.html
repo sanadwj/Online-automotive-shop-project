@@ -38,17 +38,20 @@
     </header>
     <main>
         <div class="search-header flex">
-            <div class="header-logo flex">
-                <img src="./graphics/logo.png" alt="SEARCH.ME">
-            </div>
-            <div class="header-text">
-                <h7>
-                    Almost What Ever You Need You Will Find Here
-                </h7>
+            <div class="logo-text flex">
+                <div class="s-header-logo flex">
+                    <img src="./graphics/logo.png" alt="SEARCH.ME">
+                </div>
+                <div class="s-header-text flex">
+                    <h7>
+                        Almost What Ever You Need You Will Find Here
+                    </h7>
+                </div>
             </div>
             
+            
             <div class="search-header-forms flex">
-                <div class="dep">
+                <div class="s-dep">
                     <select class="select" name="All Departments" id="All Departments" >
                         <option value="real-estate" selected disabled>All Departments</option>
                         <option value="real-estate" >Real Estates</option>
@@ -59,9 +62,9 @@
                     </select>
                 </div>
                 
-                <input class="item" type="search" name="item" id="mySearch" placeholder="What do you search for ?">
-                <input class="city" type="search" name="city" id="myCity" placeholder="City">
-                <div class="search">
+                <input class="s-item" type="search" name="item" id="mySearch" placeholder="What do you search for ?">
+                <input class="s-city" type="search" name="city" id="myCity" placeholder="City">
+                <div class="s-search">
                     <button>SEARCH</button>
                 </div>
                 
@@ -69,31 +72,31 @@
             </div>
         </div>
         <div class="search-container">
-            <div>
+            <div class="s-search">
                 <form action="">
-                    <div>
+                    <div class="buy-sell">
                         <input type="checkbox" name="Buy" id="Rent">
                         <label for="Buy">Buy</label>
                         <input type="checkbox" name="Sell" id="Sell">
                         <label for="Sell">Sell</label>
                     </div>
-                    <div>
+                    <div class="make grid">
                         <div><h4>Car Make</h4></div>
                         <div>
                             <input type="checkbox" name="Hyundai" id="Hyundai">
                             <label for="Hyundai">Hyundai</label><br>
                             <input type="checkbox" name="Kia" id="Kia"">
-                            <label for="Kia"">Kia"</label>
+                            <label for="Kia"">Kia</label><br>
                             <input type="checkbox" name="Ford" id="Ford">
-                            <label for="Ford">Ford</label>
+                            <label for="Ford">Ford</label><br>
                             <input type="checkbox" name="BMW" id="BMW">
-                            <label for="BMW">BMW</label>
+                            <label for="BMW">BMW</label><br>
                             <input type="checkbox" name="Dodge" id="Dodge">
-                            <label for="Dodge">Dodge</label>
+                            <label for="Dodge">Dodge</label><br>
                             <input type="checkbox" name="Mercedes" id="Mercedes">
-                            <label for="Mercedes">Mercedes</label>
+                            <label for="Mercedes">Mercedes</label><br>
                             <input type="checkbox" name="Toyota" id="Toyota">
-                            <label for="Toyota">Toyota</label>
+                            <label for="Toyota">Toyota</label><br>
                             <input type="checkbox" name="Volkswagen" id="Volkswagen">
                             <label for="Volkswagen">Volkswagen</label>
                             <div>
@@ -102,7 +105,7 @@
 
                         </div>
                     </div>
-                    <div>
+                    <div class="model grid">
                         <div>
                             <h4>Model</h4>
                         </div>
@@ -112,23 +115,260 @@
                             </select>
                         </div>
                     </div>
-                    <div>
-                        <input type="checkbox" name="2seat" id="2seat">
-                        <label for="2seat">Two Seat</label>
-                        <input type="checkbox" name="sedan" id="sedan">
-                        <label for="sedan">sedan</label>
-                        <input type="checkbox" name="fcar" id="fcar">
-                        <label for="fcar">Family Car</label>
-
+                    <div class="type grid">
+                        <div>
+                            <h4>Type</h4>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="2seat" id="2seat">
+                            <label for="2seat">Two Seat</label><br>
+                            <input type="checkbox" name="sedan" id="sedan">
+                            <label for="sedan">sedan</label><br>
+                            <input type="checkbox" name="fcar" id="fcar">
+                            <label for="fcar">Family Car</label>
+    
+                        </div>
                     </div>
+                    
                 </form>
 
             </div>
-            <div>
-
+            
+            <div class="search-car">
+                <div class="result">
+                    <p>76 Results for "Ford" Search at Los Angeles in Category Automotines </p>
+                </div>
+                <div class="s-car">
+                    <div class="flex search-f-section">
+                        <div class="s-img flex">
+                            
+                            <img class="flex" src="./graphics/f-ad.jpg" alt="Thumbnail">
+                            <div class="abs flex">
+                                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class=" search-text">
+                            <h4>2019 Dodge Charger</h4>
+                            <p>QUICK ORDER PACKAGE 2EG -INC: ENGINE: 3.6L V6 24V VVT TRANSMISSION: 8-SPEED AUTOMATIC (8HP50)</p>
+                            <div class="s-used flex">
+                                <div class="s-text flex">
+                                    <h6>Used</h6>
+                                    <p>From: <span>LA</span></p>
+                                </div>
+                                
+                                <div>
+                                    <button class="s-btn">$21,999</button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="s-car">
+                    <div class="flex search-f-section">
+                        <div class="s-img flex">
+                            
+                            <img class="flex" src="./graphics/f-ad.jpg" alt="Thumbnail">
+                            <div class="abs flex">
+                                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class=" search-text">
+                            <h4>2019 Dodge Charger</h4>
+                            <p>QUICK ORDER PACKAGE 2EG -INC: ENGINE: 3.6L V6 24V VVT TRANSMISSION: 8-SPEED AUTOMATIC (8HP50)</p>
+                            <div class="s-used flex">
+                                <div class="s-text flex">
+                                    <h6>Used</h6>
+                                    <p>From: <span>LA</span></p>
+                                </div>
+                                
+                                <div>
+                                    <button class="s-btn">$21,999</button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="s-car">
+                    <div class="flex search-f-section">
+                        <div class="s-img flex">
+                            
+                            <img class="flex" src="./graphics/f-ad.jpg" alt="Thumbnail">
+                            <div class="abs flex">
+                                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class=" search-text">
+                            <h4>2019 Dodge Charger</h4>
+                            <p>QUICK ORDER PACKAGE 2EG -INC: ENGINE: 3.6L V6 24V VVT TRANSMISSION: 8-SPEED AUTOMATIC (8HP50)</p>
+                            <div class="s-used flex">
+                                <div class="s-text flex">
+                                    <h6>Used</h6>
+                                    <p>From: <span>LA</span></p>
+                                </div>
+                                
+                                <div>
+                                    <button class="s-btn">$21,999</button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="s-car">
+                    <div class="flex search-f-section">
+                        <div class="s-img flex">
+                            
+                            <img class="flex" src="./graphics/f-ad.jpg" alt="Thumbnail">
+                            <div class="abs flex">
+                                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class=" search-text">
+                            <h4>2019 Dodge Charger</h4>
+                            <p>QUICK ORDER PACKAGE 2EG -INC: ENGINE: 3.6L V6 24V VVT TRANSMISSION: 8-SPEED AUTOMATIC (8HP50)</p>
+                            <div class="s-used flex">
+                                <div class="s-text flex">
+                                    <h6>Used</h6>
+                                    <p>From: <span>LA</span></p>
+                                </div>
+                                
+                                <div>
+                                    <button class="s-btn">$21,999</button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="s-car">
+                    <div class="flex search-f-section">
+                        <div class="s-img flex">
+                            
+                            <img class="flex" src="./graphics/f-ad.jpg" alt="Thumbnail">
+                            <div class="abs flex">
+                                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class=" search-text">
+                            <h4>2019 Dodge Charger</h4>
+                            <p>QUICK ORDER PACKAGE 2EG -INC: ENGINE: 3.6L V6 24V VVT TRANSMISSION: 8-SPEED AUTOMATIC (8HP50)</p>
+                            <div class="s-used flex">
+                                <div class="s-text flex">
+                                    <h6>Used</h6>
+                                    <p>From: <span>LA</span></p>
+                                </div>
+                                
+                                <div>
+                                    <button class="s-btn">$21,999</button>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+               
+                
+                <div class=" navi flex">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <span>...</span>
+                    <a href="#">7</a>
+                </div>
+    
             </div>
 
         </div>
+        
     </main>
+    <footer class="footer flex">
+        <div class="sec flex">
+            <div class="footer-logo flex">
+                <img class="logo" src="./graphics/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="cat-nav flex">
+                <div class="lists flex">
+                    <div class="title">
+                        <h4>CATEGORIES</h4>
+                    </div>
+                    <div class="list">
+                        <a href="#"><h5>Automotives</h5></a>
+                        <a href="#"><h5>Motor Cycle</h5></a>
+                        <a href="#"><h5>Car Accessories</h5></a>
+                        <a href="#"><h5>Services</h5></a>
+                    </div>
+
+                </div>
+                <div class="lists flex">
+                    <div class="title">
+                        <h4>NAVIGATION</h4>
+                    </div>
+                    <div class="list">
+                        <a href="#"><h5>Home</h5></a>
+                        <a href="#"><h5>Sign In</h5></a>
+                        <a href="#"><h5>Sign Up</h5></a>
+                        <a href="#"><h5>Terms & Conditions</h5></a>
+                        <a href="#"><h5>FAQ</h5></a>
+                        <a href="#"><h5>Help</h5></a>
+                    </div>
+                </div>
+                <div class="options flex">
+                    <div class="option flex">
+                        <div>
+                            <h4>COUNTRY</h4>
+                        </div>
+                        <div>
+                            <input type="search" name="" id="" placeholder="San Francisco">
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="option flex">
+                        <div>
+                            <h4>LANGUAGE</h4>
+                        </div>
+                        <div>
+                            <input type="search" name="" id="" placeholder="English">
+                        </div>
+                    </div>
+                    <div class="option flex">
+                        <div>
+                            <h4>CURRENCY</h4>
+                        </div>
+                        <div>
+                            <input type="search" name="" id="" placeholder="US dollar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        <div class="rights flex">
+            <div class="right">
+                <p><span>&copy;</span>All Rights Reserved Designed by SEARCH.ME</p>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    </footer>    
 </body>
 </html>
