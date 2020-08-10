@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# hireable
+# Search Me
+
+### hireable
 
 
 
@@ -67,6 +69,9 @@ This project made as a part of the HTML/CSS capstone project for Microverse Spec
 ```sh
 git clone https://github.com/sanadwj/HTML-CSS-capstone-project.git
 ```
+2. Open main-page.html in your browser 
+
+3. Enjoy
 
 
 
